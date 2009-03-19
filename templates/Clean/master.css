@@ -1,0 +1,15 @@
+/*****************************************************
+
+	This stylesheet will make sure all your CSS
+	documents are imported in the right order
+	to help prevent inherit problems.
+	
+	NOTE: If you modify any of the CSS names,
+	please make sure you change them below to
+	reflect the right CSS document.
+
+*****************************************************/
+
+@import 'reset.css'; /* Set our base */
+@import 'base.css'; /* Bringing back our elements we reset */
+@import 'styles.css'; /* Applying our pretty design */

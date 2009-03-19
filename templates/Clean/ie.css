@@ -1,0 +1,29 @@
+/*****************************************************
+
+	This stylesheet contains all various IE bugs
+	and fixes that don't need to be in the main
+	css stylesheets. Keep track of your IE bugs
+	here.
+	
+	NOTE: This stylesheet is applied last. Make
+	sure that you don't inhrit something!
+
+*****************************************************/
+
+/* IE margin 0 auto bug */
+body { text-align:center; }
+#container { text-align:left; } /* Change to match main container */
+
+/* This fixes the problem where IE6 adds an extra 3px margin to
+two columns that are floated up against each other. Change 
+to floated class */
+* html .column { overflow-x:hidden; } /* IE6 fix */
+
+/* Subscript & Superscript bug */
+sub,sup { font-size:100%; }
+
+/* Fixes incorrect styling of legend in IE6 fieldsets. */
+legend { margin-bottom:1.4em; }
+
+/* Fixes incorrect placement of numbers in ol's in IE6/7 */
+ol { margin-left:2em; }

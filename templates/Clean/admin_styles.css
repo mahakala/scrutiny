@@ -1,0 +1,197 @@
+/*****************************************************
+
+	Create all your main styles in this
+	stylesheet.
+
+*****************************************************/
+
+html {
+	background:transparent;
+	font-size:125%;
+}
+
+body {
+	background:#FFF;
+	color:#333;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:50%; /* 1em ≈ 10px */
+}
+
+/***** Base Overrides *****/
+
+/***** Site-wide Classes *****/
+
+.distext { display:none; }
+.last { margin:0 0 0; }
+
+/***** ID'd Container(s) *****/
+#admin {
+	width: 90em;
+	margin: 0 auto;
+}
+
+#tabs {
+	background: #efefef;
+	font-size: 1.2em;
+}
+
+/***** Main Content Styles *****/
+#tabs ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+#tabs ul li a {
+	padding: 1.2em;
+	color: green;
+	font-weight: bold;
+}
+
+#tabs ul li a:hover {
+	color: darkgreen;
+}
+
+.submenu {
+	padding: 1.2em;
+	font-size: 1.1em;
+	float: left;
+	width: 15em;
+	position: relative;
+	top: -2em;
+}
+
+.dbsidemenu {
+	top: 2.5em;
+}
+
+.submenu ul li {
+	list-style-type: none;
+	margin: 1em 0 1em 0;
+}
+
+.submenu ul li a {
+	color: green;
+}
+
+.submenu ul li a:hover {
+	border-bottom: 1px solid #333;
+}
+
+.panel {
+	font-size: 1.2em;
+	margin: 4em 0 0 16em;
+}
+
+.panel .tblhead {
+	font-weight: bold;
+	margin: 1em 0 2em 0;
+}
+
+.panel legend {
+	font-weight: bold;
+	position: relative;
+	top: -0.5em;
+}
+
+.panel fieldset, .panel .input,  .panel .select,  .panel .textarea,  .panel .checkbox,  .panel .radio {
+	margin-bottom: 3em;
+}
+
+.panel .checkbox p, .panel .input p {
+	font-size: 0.9em;
+	margin-top: 1em;
+}
+
+.panel fieldset.mains input, .panel .input input {
+	font-size: 1.2em;
+	width: 30em;
+}
+
+.panel fieldset.mains textarea, .panel .textarea textarea {
+	font-size: 1.2em;
+	width: 30em;
+}
+
+.panel fieldset label, .panel .input label, .panel .textarea label, .panel .select label {
+	display: block;
+}
+
+.panel fieldset.checkbox label, .panel .checkbox label {
+	display: inline;
+}
+
+.panel fieldset.radiobuttons label {
+	display: inline;
+}
+
+.panel dt {
+	margin-top: 3em;
+}
+
+.panel dd {
+	margin-left: 10em;
+}
+
+p.stats {
+	font-size: 0.8em;
+	margin: 3em 0 0 22em;
+	clear: both;
+}
+
+.headline {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+form.txt fieldset {
+	margin: 3em 0 0 0;
+}
+
+form.txt fieldset label {
+	margin-top: 1em;
+}
+
+div.paginationcell {
+	margin: 1em 0 0 0;
+}
+
+table tr td {
+	padding: 0.3em 0.2em;
+}
+
+table tr.odrow {
+	background: #efefef;
+}
+
+/* Backups? */
+.bkupcomplicated {
+	font-weight: normal;
+}
+
+.bkupcomplicated span {
+	font-size: 0.8em;
+}
+
+
+/* Login Panel */
+
+.loginpage fieldset h1 {
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+.loginpage fieldset {
+	width: 10em;
+	margin: 13em auto 0 auto;
+	font-size: 1.2em;
+	padding: 2em;
+	background: #efefef;
+}
+
+.loginpage fieldset .input {
+	margin: 0 0 2em 0;
+}
+
+.loginpage fieldset .submit {
+	margin-top: 1em;
+}

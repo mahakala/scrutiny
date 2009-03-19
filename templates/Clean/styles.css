@@ -1,0 +1,208 @@
+/*****************************************************
+
+	Create all your main styles in this
+	stylesheet.
+
+*****************************************************/
+
+html {
+	background:transparent;
+	font-size:125%;
+}
+
+body {
+	background:#FFF;
+	color:#333;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:50%; /* 1em ≈ 10px */
+}
+
+/***** Base Overrides *****/
+
+/***** Site-wide Classes *****/
+
+.distext { display:none; }
+.last { margin:0 0 0; }
+
+/***** ID'd Container(s) *****/
+#show-advanced {
+	font-size: 1.2em;
+}
+
+#footer {
+	margin: 5em 0 0 0;
+}
+
+/***** Main Content Styles *****/
+#show-advanced a {
+	color: blue;
+}
+
+#show-advanced a:hover {
+	color: purple;
+}
+
+.resultspage .warnadmin {
+	font-size: 1.4em;
+	margin: 5em 0 0 23.5em;
+}
+
+.searchpage h1 {
+	text-align: center;
+	margin: 3em 0 1em 0;
+}
+
+.resultspage h1 {
+	width: 15em;
+	float: left;
+}
+
+.searchpage #searchform {
+	width: 50em;
+	margin: 0 auto;
+}
+
+.searchpage input#query {
+	width: 20em;
+	font-size: 1.5em;
+	padding: 0.2em;
+}
+
+.resultspage input#query {
+	width: 20em;
+	font-size: 1.3em;
+	padding: 0.2em;
+}
+
+.searchpage input#submit {
+	font-size: 2em;
+}
+
+.searchpage #advanced-search {
+	width: 50em;
+	margin: 1em auto 1em auto;
+}
+
+.resultspage #advanced-search {
+	width: 42em;
+	margin: 1em 0 1em 13em;
+}
+
+.resultspage #searchform {
+	margin: 0 0 0 20em;
+	padding: 0.5em 0 0 0;
+}
+
+#searchform input {
+	font-size: 1.2em;
+}
+
+#searchform label {
+	font-size: 1.2em;
+}
+
+#searchform .radiodset {
+	margin: 1em 0 1em 0;
+}
+
+#searchform .singlelineset {
+	margin: 1em 0 1em 0;
+}
+
+#searchform .singlelineset .post-label {
+	font-size: 1.2em;
+}
+
+.searchpage #searchnumpage, .searchpage #searchmark {
+	text-align: right;
+	width: 48em;
+}
+
+.resultspage #searchnumpage, .resultspage #searchmark {
+	text-align: right;
+	width: 41em;
+}
+
+#searchform select {
+	font-size: 1.2em;
+}
+
+#searchform .radioset label {
+	padding: 0 1.3em 0 0.4em;
+}
+
+.resultspage #container {
+	margin: 2em 3em 4em 3em;
+}
+
+.results-report {
+	clear: left;
+}
+
+dl.results {
+	border-top: 1px solid #efefef;
+}
+
+dl.results dt {
+	margin: 1em 0 0 0;
+	font-size: 1.8em;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+dl.results dd {
+	margin: 0.5em 0 2em 0;
+}
+
+dl.results div.description {
+	margin: 0;
+	font-size: 1.2em;
+	width: 45em;
+}
+
+dl.results div.url {
+	color: #000;
+	font-size: 1.1em;
+	margin: 0.5em 0 0 0;
+}
+
+dl.results div.url .pagesize {
+	color: green;
+}
+
+dl.results div.url a {
+	color: green;
+}
+
+div#other_pages {
+	font-size: 1.4em;
+}
+
+div#other_pages ul li {
+	list-style-type: none;
+	display: inline;
+	border-right: 1px solid #999;
+}
+
+div#other_pages ul li.pagelink {
+	padding: 0 0.3em 0 0.5em;
+}
+
+div#other_pages ul li.pagelink a {
+	padding: 0;
+	margin: 0;
+}
+
+div#other_pages ul li.previouslink {
+	padding-right: 0.8em;
+}
+
+div#other_pages ul li.nextlink {
+	padding-left: 1em;
+	border-right: 0;
+}
+
+div#other_pages ul li.current-page {
+	font-weight: bold;
+	padding-right: 0.5em;
+}

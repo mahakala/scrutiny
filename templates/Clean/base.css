@@ -1,0 +1,69 @@
+/*****************************************************
+
+	Make all your basic typography changes here.
+	
+	NOTE: This is still very rough. This stylesheet
+	still needs some work for optimal typography
+	across the board.
+
+*****************************************************/
+
+/* You can change the font-sizes, line-heights, and margins safely by using em's not pixels! */
+
+/* Paragraph */
+p {
+	font-size:1.2em;
+	line-height:1.5em;
+	margin:0 0 1em;
+}
+
+/* Headings */
+h1,h2,h3,h4,h5,h6 {
+	line-height:1.1em;
+	margin:0 0 .6em;
+}
+
+h1 { font-size:2.2em; }
+h2 { font-size:2em; }
+h3 { font-size:1.8em; }
+h4 { font-size:1.6em; }
+h5 { font-size:1.4em; }
+h6 { font-weight:bold; }
+
+/* Blockquotes */
+blockquote {
+	font-size:inherit;
+	margin:0 0 0 1em;
+}
+
+/* Monospace Types */
+code,samp,pre,tt {
+	font-family:monospace;
+	font-size:inherit;
+	white-space:pre;
+}
+
+/* Lists */
+ol,ul { margin:0 0 1em; }
+ol li { list-style-type:decimal; }
+ul li { list-style-type:square; }
+
+li { font-size:inherit; line-height:1.5em; }
+
+/* Definition Lists */
+dl { margin:0 0 1em; }
+dl dt { font-weight:bold; }
+dd { margin:0 0 0 1em; }
+
+/* Abbreviation, Acronym, and Address */
+abbr, acronym { border-bottom: 1px dotted #666; }
+address { font-style: italic; }
+
+/* Simple Text Tags */
+big { font-size:1.1em; }
+del { text-decoration:line-through; }
+dfn,cite,em,i,var { font-style:italic; }
+ins { text-decoration:underline; }
+small { font-size:.8em; }
+strong,b { font-weight:bold; }
+sub,sup { font-size:.9em; }
